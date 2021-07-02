@@ -60,12 +60,14 @@
 				<div class="animate__block-29 animate__block js-scroll-animation slide-left-anim-2"></div>
 				<div class="animate__block-30 animate__block js-scroll-animation slide-right-anim1"></div>
 			</div>
-			<img src="images/dist/Bg__Intro.png" alt="" class="bg__intro">
-			<div class="header__burger">
+			<!-- <img src="images/dist/Bg__Intro.png" alt="" class="bg__intro"> -->
+			<!-- <img src="images/dist/Bg__Intro-tablet.png" alt="" class="header__bg"> -->
+			<div class="header__bg"></div>	
+			<button class="burger">
 				<div class="line-1 line"></div>
 				<div class="line-2 line"></div>
 				<div class="line-3 line"></div>
-			</div>
+			</button>
 			<nav class="header__navigation navigation">
 				<ul class="navigation__menu">
 					<li class="navigation__list"><a href="#" class="navigation__link">Услуги</a></li>
@@ -86,7 +88,9 @@
 				<span class="header__subtitle">Адвокатское бюро</span>
 			</div>
 			<a href="#" class="header__btn btn">Получить консультацию <span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
-			<div class="header__color"></div>
+			<div class="header__color">
+				<img src="images/dist/green__block.jpg" alt="block" aria-hidden="true">
+			</div>
 		</header>
 
 		<section class="about">
@@ -94,13 +98,13 @@
 			<p class="about__subtitle subtitle js-scroll fade-in-bottom">Мы оказываем услуги по правовой защите и сопровождению хозяйственной деятельности добросовестных граждан 
 				и организаций. Помогаем в списании задолженностей физических и юридических лиц, а также выступаем налоговым агентом. Работая с нами Вы можете быть уверены в профессионализме действий и надежности результата.</p>
 			<div class="about__img-1 about__img js-scroll fade-in-bottom">
-				<img src="images/dist/woman_1.jpg" alt="women">
+
 			</div>
 			<div class="about__img-2 about__img js-scroll fade-in-bottom">
-				<img src="images/dist/woman_2.jpg" alt="woman">
+
 			</div>
 			<div class="about__img-3 about__img js-scroll fade-in-bottom">
-				<img src="images/dist/men_1.jpg" alt="men">
+
 			</div>
 			<div class="about__color-1"></div>
 			<div class="about__color-2"></div>
@@ -170,7 +174,7 @@
 									и административному праву</p>
 							</div>
 							<div class="people__slide-img">
-								<!-- <img src="images/dist/men_2.jpg" alt="man"> -->
+
 							</div>
 							<p class="people__slide-block1 people__slide-block">Более 20-ти лет опыта 
 								и 570+ выигранных дел</p>
@@ -200,7 +204,7 @@
 		<section class="achievement">
 			<h2 class="achievement__title title js-scroll fade-in-bottom">Достижения
 				компании</h2>
-			<p class="achievement__subtitle subtitle js-scroll fade-in-bottom">Мы всегда выполняем принятые на себя обязательства вне зависимости от обстоятельств. Строжайшая политика конфиденциальности 
+			<p class="subtitle achievement__subtitle js-scroll fade-in-bottom">Мы всегда выполняем принятые на себя обязательства вне зависимости от обстоятельств. Строжайшая политика конфиденциальности 
 				и заинтересованность в долгосрочном сотрудничестве исключают возможность конфликта интересов, утечки информации и коммерческого подкупа.</p>
 			<div class="achievement__block-1 green__block js-scroll fade-in-bottom">
 				<div class="green__block-work">Активов сохранено</div>
@@ -224,24 +228,30 @@
 
 
 		<section class="get">
-			<h2 class="get__title title js-scroll fade-in-bottom">Выбрав нас, 
+			<h2 class="title get__title js-scroll fade-in-bottom">Выбрав нас, 
 				вы получаете</h2>
 			<div class="get__block-1 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">Свободу</h3>
-				<p class="get__block-description">от долговых обязательств
-					перед кредиторами</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Свободу</h3>
+					<p class="get__block-description">от долговых обязательств
+						перед кредиторами</p>
+				</div>
 			</div>
 			<div class="get__block-2 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">Спокойствие</h3>
-				<p class="get__block-description">звонков от кредитора
-					больше не будет</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Спокойствие</h3>
+					<p class="get__block-description">звонков от кредитора
+						больше не будет</p>
+				</div>
 			</div>
 			<div class="get__block-3 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">Возможность</h3>
-				<p class="get__block-description">спокойно распоряжаться своим имуществом, и ездить за границу</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Возможность</h3>
+					<p class="get__block-description">спокойно распоряжаться своим имуществом, и ездить за границу</p>
+				</div>
 			</div>
 		</section>
 
@@ -273,32 +283,34 @@
 			<div class="trust__btn-next trust__btn">></div>
 
 			<div class="trust__block-1 trust__block">
-				<img src="images/dist/company/vtb.jpg" alt="vtb">
+
 			</div>
 			<div class="trust__block-2 trust__block">
-				<img src="images/dist/company/rusgidro.jpg" alt="rusgidro">
+
 			</div>
 			<div class="trust__block-3 trust__block">
-				<img src="images/dist/company/open.jpg" alt="open">
+
 			</div>
 			<div class="trust__block-4 trust__block">
-				<img src="images/dist/company/rosbank.jpg" alt="rosbank">
+
 			</div>
 			<div class="trust__block-5 trust__block">
-				<img src="images/dist/company/bmbank.jpg" alt="bmbank">
+
 			</div>
 			<div class="trust__block-6 trust__block">
-				<img src="images/dist/company/noksbank.jpg" alt="noksbank">
+
 			</div>
 			<div class="trust__block-7 trust__block">
-				<img src="images/dist/company/unicredit.jpg" alt="unicredit">
+
 			</div>
+
+			
 		</section>
 
 
 		<section class="paper">
 			<h2 class="paper__title title js-scroll fade-in-bottom">Популярные статьи</h2>
-			<a href="#" class="paper__btn btn">Все статьи<span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
+			<a href="property.html" class="paper__btn btn">Все статьи<span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
 			<div class="paper__block-1 paper__block js-scroll slide-right">
 				<p class="paper__data">8 мая 2021 г.</p>
 				<p class="paper__name">ЧТО НЕДОГОВАРИВАЮТ О БАНКРОТСТВЕ ФИЗИЧЕСКИХ ЛИЦ?</p>
@@ -318,7 +330,7 @@
 			<a href="ur.html" class="paper__link-2 paper__link js-scroll slide-left">
 				<img src="images/dist/arrow-right-green.svg" alt="arrow-right-green">
 			</a>
-			<a href="#" class="paper__link-3 paper__link js-scroll slide-right">
+			<a href="nal.html" class="paper__link-3 paper__link js-scroll slide-right">
 				<img src="images/dist/arrow-right-green.svg" alt="arrow-right-green">
 			</a>
 
