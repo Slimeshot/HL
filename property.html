@@ -30,8 +30,10 @@
 	<div class="grid">
         <header class="property">
             <a href="index.html" class="property__logo">H&L</a>
-            <img src="images/dist/Bg__property.png" alt="" class="bg__property">
-			<div class="header__burger">
+            <img src="images/dist/green__block.jpg" class="grid__sizer" alt="block" aria-hidden="true">
+            <!-- <img src="images/dist/Bg__property.png" alt="" class="bg__property"> -->
+            <div class="bg__property"></div>
+			<div class="burger">
 				<div class="line-1 line"></div>
 				<div class="line-2 line"></div>
 				<div class="line-3 line"></div>
@@ -51,24 +53,23 @@
 				<li class="social__list"><a href="#" class="social__link"><img src="images/dist/social/viber.svg" alt=""></a></li>
 				<li class="social__list"><a href="#" class="social__link"><img src="images/dist/social/telegram.svg" alt=""></a></li>
 			</ul>
-            <h1 class="property__title">Юрист по недвижимости</h1>
-            <a href="#" class="property__btn btn">Получить консультацию <span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
+            <h1 class="property__title">Юрист по&nbsp;недвижимости</h1>
+            <a href="#" class="property__btn btn"><span>Получить консультацию </span><span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
 			<div class="property__block-1 info__block">
                 <span class="info__block-title">01</span>
-                <span class="info__block-subtitle">сохраним бизнес</span>
+                <span class="info__block-subtitle">узаконит право собственности<br> на объекты недвижимости</span>
             </div>
             <div class="property__block-2 info__block">
                 <span class="info__block-title">02</span>
-                <span class="info__block-subtitle">предотвратит угрозу банкротству</span>
+                <span class="info__block-subtitle">устранит нарушения в отношении<br> прав на объект недвижимости</span>
             </div>
             <div class="property__block-3 info__block">
                 <span class="info__block-title">03</span>
-                <span class="info__block-subtitle">взаимодействие с налоговыми <br>
-                    органами возьмем на себя</span>
+                <span class="info__block-subtitle">Выделит долю, определит порядок<br> пользования недвижимостью</span>
             </div>
             <div class="property__block-4 info__block">
                 <span class="info__block-title">04</span>
-                <span class="info__block-subtitle">уменьшить
+                <span class="info__block-subtitle">уменьшит<br>
                     кадастровую стоимость</span>
             </div>
             <div class="property__color-1"></div>
@@ -78,9 +79,9 @@
 
 
         <section class="necessary">
-            <h2 class="necessary__title title">Как определить, что вам нужен юрист по недвижимости?</h2>
+            <h2 class="necessary__title title"><span>Как определить, что вам</span><br><span>нужен юрист по недвижимости?</span></h2>
             <div class="necessary__subtitle subtitle">Чем раньше вы обратились 
-                за помощью, тем больше возможностей разрешить ситуацию в вашу пользу</div>
+                за помощью, тем больше&nbsp;возможностей разрешить ситуацию в&nbsp;вашу&nbsp;пользу</div>
             <ul class="necessary__menu">
                 <li class="necessary__list">Отказали в регистрации права собственности на недвижимость</li>
                 <li class="necessary__list">Отсутствуют необходимые для регистрации права документы</li>
@@ -89,9 +90,17 @@
                 <li class="necessary__list">Достигнуть соглашение с сособственником недвижимости не удалось</li>
             </ul>
             <a href="#" class="necessary__btn btn"><img src="images/dist/arrow-right.svg" alt="arrow-right"></a>
+            <div class="necessary__color-1"></div>
+            <div class="necessary__color-2"></div>
+            <div class="necessary__color-3"></div>
+            <div class="necessary__color-4"></div>
         </section>
-
         <section class="cost">
+            <select class="cost__select-tablinks">
+                <option value="0">Реструктуризация долга</option>
+                <option value="1">Реализация имущества</option>
+                <option value="2">Внесудебное банкротство</option>
+            </select>
             <h2 class="cost__title title">Стоимость услуг</h2>
             <h3 class="cost__tablinks-1 tablinks" id="defaultOpens">Определение надлежащего способа защиты права</h3>
             <h3 class="cost__tablinks-2 tablinks">Сопровождение дела в суде 1-й инстанции</h3>
@@ -167,24 +176,10 @@
                 <div class="tabcontainer__price">от 40000 руб.</div>
                 <a href="#" class="tabcontainer__btn btn"><img src="images/dist/arrow-right.svg" alt="arrow-right"></a>
             </div>
-
-
         </section>
-
-
-        <section class="params">
-            <div class="params__info">Стоимость услуг юриста по недвижимости зависит от нескольких параметров</div>
-            <div class="params__block">
-                <div class="params__text">Категории сложности дела</div>
-                <div class="params__text">Объем исследуемой документации</div>
-                <div class="params__text">Срок рассмотрения спора</div>
-            </div>
-        </section>
-
-
 
         <section class="spec">
-            <h2 class="spec__title title">Есть вопрос? 
+            <h2 class="spec__title title">Есть вопрос?<br>
             Задайте его специалисту</h2>
             <div class="spec__img">
                 <img src="images/dist/woman_4.jpg" alt="man">
@@ -211,22 +206,28 @@
 
 
         <section class="get">
-			<h2 class="get__title title js-scroll fade-in-bottom">Выбрав нас, 
+			<h2 class="title get__title js-scroll fade-in-bottom">Выбрав нас, 
 				вы получаете</h2>
 			<div class="get__block-1 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">решение</h3>
-				<p class="get__block-description">правового вопроса по фиксированной стоимости</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Решение</h3>
+					<p class="get__block-description">правового вопроса по фиксированной стоимости</p>
+				</div>
 			</div>
 			<div class="get__block-2 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">Защиту</h3>
-				<p class="get__block-description">ваших прав</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Защиту</h3>
+					<p class="get__block-description">ваших прав</p>
+				</div>
 			</div>
 			<div class="get__block-3 get__block js-scroll fade-in-bottom">
 				<div class="get__block-square"></div>
-				<h3 class="get__block-title">результат</h3>
-				<p class="get__block-description">разрешения спора</p>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Результат</h3>
+					<p class="get__block-description">разрешения спора</p>
+				</div>
 			</div>
 		</section>
 
@@ -303,26 +304,28 @@
 			<div class="trust__btn-next trust__btn">></div>
 
 			<div class="trust__block-1 trust__block">
-				<img src="images/dist/company/vtb.jpg" alt="vtb">
+
 			</div>
 			<div class="trust__block-2 trust__block">
-				<img src="images/dist/company/rusgidro.jpg" alt="rusgidro">
+
 			</div>
 			<div class="trust__block-3 trust__block">
-				<img src="images/dist/company/open.jpg" alt="open">
+
 			</div>
 			<div class="trust__block-4 trust__block">
-				<img src="images/dist/company/rosbank.jpg" alt="rosbank">
+
 			</div>
 			<div class="trust__block-5 trust__block">
-				<img src="images/dist/company/bmbank.jpg" alt="bmbank">
+
 			</div>
 			<div class="trust__block-6 trust__block">
-				<img src="images/dist/company/noksbank.jpg" alt="noksbank">
+
 			</div>
 			<div class="trust__block-7 trust__block">
-				<img src="images/dist/company/unicredit.jpg" alt="unicredit">
+
 			</div>
+
+			
 		</section>
 
 

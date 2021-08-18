@@ -29,11 +29,11 @@
     <div class="grid">
         <header class="fiz">
             
-            <div class="header__burger">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line 3"></div>
-            </div>
+            <button class="burger">
+				<div class="line-1 line"></div>
+				<div class="line-2 line"></div>
+				<div class="line-3 line"></div>
+			</button>
             <a href="index.html" class="fiz__logo">H&L</a>
             <nav class="fiz__navigation navigation">
                 <ul class="navigation__menu">
@@ -52,9 +52,8 @@
             </ul>
             <h1 class="fiz__title">Юрист <br> по банкротству</h1>
             <span class="fiz__subtitle">Для физических лиц</span>
-            <a href="#" class="fiz__btn btn">Получить консультацию <span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
-            <img src="images/dist/Bg__fiz.png" alt="" class="bg__fiz">
-
+            <a href="#" class="fiz__btn btn"><span>Получить консультацию</span> <span><img src="images/dist/arrow-right.svg" alt="arrow-right"></span></a>
+            <div class="bg__fiz"></div>
             <div class="fiz__block-1 info__block">
                 <span class="info__block-title">01</span>
                 <span class="info__block-subtitle">спишем задолженность <br>
@@ -71,15 +70,20 @@
             </div>
             <div class="fiz__color-1"></div>
             <div class="fiz__color-2"></div>
-
+            <img src="images/dist/green__block.jpg" class="grid__sizer" alt="block" aria-hidden="true">
         </header>
 
 
         <section class="option">
-            <h2 class="option__title title">Варианты списания долгов</h2>
+            <h2 class="option__title title">Варианты<br> списания долгов</h2>
+            <select class="option__select-tabs">
+                <option value="0">Реструктуризация долга</option>
+                <option value="1">Реализация имущества</option>
+                <option value="2">Внесудебное банкротство</option>
+            </select>
             <h3 class="option__tabs-1 option__tabs" id="defaultOpen">Реструктуризация долга</h3>
             <h3 class="option__tabs-2 option__tabs">Реализация имущества</h3>
-            <h3 class="option__tabs-3 option__tabs">Внесудебное банкротство </h3>
+            <h3 class="option__tabs-3 option__tabs">Внесудебное банкротство</h3>
             <div class="option__label-1 option__label">Требования к гражданину:</div>
             <div class="option__label-2 option__label">Преимущества:</div>
             <div id="debt" class="option__info">
@@ -123,7 +127,7 @@
 
 
         <section class="spec">
-            <h2 class="spec__title title">Есть вопрос? 
+            <h2 class="spec__title title">Есть вопрос? <br>
             Задайте его специалисту</h2>
             <div class="spec__img">
                 <img src="images/dist/men_2.jpg" alt="man">
@@ -155,6 +159,11 @@
             <h3 class="price__tablinks-1 tablinks" id="defaultOpens">Реструктуризация долга</h3>
             <h3 class="price__tablinks-2 tablinks">Реализация имущества</h3>
             <h3 class="price__tablinks-3 tablinks">Внесудебное банкротство </h3>
+            <select class="price__select-tablinks">
+                <option value="0">Реструктуризация долга</option>
+                <option value="1">Реализация имущества</option>
+                <option value="2">Внесудебное банкротство</option>
+            </select>
             <div class="price__tabcontent tabcontent">
                 <ul class="tabcontent__menu">
                     <li class="tabcontent__list">Подготовка необходимого для обращения в суд пакета документов</li>
@@ -191,8 +200,7 @@
 
         <section class="ask">
             <h2 class="ask__title title">
-                Ответьте на вопросы
-                и получите решение 
+                Ответьте на вопросы<br>и получите решение 
             </h2>
             <div class="ask_quiz">
                 <form action="" class="quiz">
@@ -210,7 +218,7 @@
 
 
         <section class="experts">
-            <h2 class="experts__title title">Банкротство - это не страшно,
+            <h2 class="title experts__title">Банкротство - это не страшно,<br>
                 когда вам помогают эксперты</h2>
             <div class="experts__block-1 green__block">
                 <div class="green__block-work">На рынке</div>
@@ -236,25 +244,34 @@
         </section>
 
         <section class="get">
-            <h2 class="get__title get__title-fiz title js-scroll fade-in-bottom">По завершении процедуры банкротства, вы получите</h2>
-            <div class="get__block-1 get__block js-scroll fade-in-bottom">
-                <div class="get__block-square"></div>
-                <h3 class="get__block-title">Свободу</h3>
-                <p class="get__block-description">от долговых обязательств
-                    перед кредиторами</p>
-            </div>
-            <div class="get__block-2 get__block js-scroll fade-in-bottom">
-                <div class="get__block-square"></div>
-                <h3 class="get__block-title">Спокойствие</h3>
-                <p class="get__block-description">звонков от кредитора
-                    больше не будет</p>
-            </div>
-            <div class="get__block-3 get__block js-scroll fade-in-bottom">
-                <div class="get__block-square"></div>
-                <h3 class="get__block-title">Возможность</h3>
-                <p class="get__block-description">спокойно распоряжаться своим имуществом, и ездить за границу</p>
-            </div>
-        </section>
+			<h2 class="title get__title js-scroll fade-in-bottom">По завершении процедуры банкротства, вы получите</h2>
+			<div class="get__block-1 get__block js-scroll fade-in-bottom">
+				<div class="get__block-square"></div>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Свободу</h3>
+					<p class="get__block-description">от долговых обязательств<br>
+						перед кредиторами</p>
+				</div>
+			</div>
+			<div class="get__block-2 get__block js-scroll fade-in-bottom">
+				<div class="get__block-square"></div>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Спокойствие</h3>
+					<p class="get__block-description">звонков от кредитора<br>
+						больше не будет</p>
+				</div>
+			</div>
+			<div class="get__block-3 get__block js-scroll fade-in-bottom">
+				<div class="get__block-square"></div>
+				<div class="get__block-text">
+					<h3 class="get__block-title">Возможность</h3>
+					<p class="get__block-description">спокойно распоряжаться своим имуществом, и ездить за границу</p>
+				</div>
+			</div>
+            <div class="get__color-1"></div>
+            <div class="get__color-2"></div>
+            <div class="get__color-3"></div>
+		</section>
 
 
         <section class="paper">
