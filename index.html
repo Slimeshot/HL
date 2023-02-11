@@ -34,7 +34,30 @@
 		</div>
 		<div class="container">
 			<div class="header__content">
-	
+				<div class="header__cart">
+					<div class="header__info">Корзина</div>
+					<div class="header__blocks">
+						<div class="header__item cardInfoNotAll">
+							<div class="cardInfoNotAll__img">
+								<img src="images/dist/main/girl.png" alt="brand">
+							</div>
+							<div class="cardInfoNotAll__txt">
+								<div class="cardInfoNotAll__text">
+									<p class="cardInfoNotAll__name">Пальто Weekend ROVO</p>
+									<p class="cardInfoNotAll__brand">Max Marra</p>
+								</div>
+								<div class="cardInfoNotAll__price">
+									<div class="cardInfoNotAll__option">Бежевый, размер М</div>
+									<div class="cardInfoNotAll__tog">
+										<div class="cardInfoNotAll__rub">51 000₽</div>
+										<button class="cardInfoNotAll__delete btn">Удалить</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#" class="header__add btn btn--black">Перейти в корзину</a>
+				</div>
 				<div class="header__search header__search--desc" data-search>
 					<svg viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<circle cx="14.8012" cy="10.0241" r="8.79536" stroke="#222222" stroke-width="2"/>
@@ -46,7 +69,7 @@
 						<path d="M1 1.5564H37" stroke="black" stroke-width="2" stroke-linecap="round"/>
 						<path d="M1 10.5564H37" stroke="black" stroke-width="2" stroke-linecap="round"/>
 						<path d="M1 19.5564H37" stroke="black" stroke-width="2" stroke-linecap="round"/>
-					</svg>							
+					</svg>									
 				</div>
 	
 				<a href="/index.html" class="header__logo">
@@ -72,7 +95,8 @@
 							<path d="M7.23341 18.4839L1 24.7173" stroke="#222222" stroke-width="2"/>
 						</svg>
 					</div>
-					<a href="#" class="header__links">
+					<div href="#" class="header__links" data-cart>
+						<p class="header__counter">1</p>
 						<svg viewBox="0 0 22 23" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<mask id="path-1-inside-1_900_10722" fill="white">
 							<path fill-rule="evenodd" clip-rule="evenodd" d="M14.055 0.791695C11.946 -0.264443 9.46218 -0.263526 7.35387 0.79417L4.18222 2.38532C4.06363 2.44481 3.98004 2.55673 3.95664 2.68732L3.67412 4.26416H1.71231C1.49119 4.26416 1.30777 4.43525 1.2924 4.65582L0.0635392 22.2884C0.0465759 22.5318 0.239453 22.7385 0.483445 22.7385H20.791C21.0384 22.7385 21.2325 22.5261 21.2102 22.2797L19.615 4.64716C19.5954 4.43027 19.4136 4.26416 19.1958 4.26416H17.6702L17.4563 2.69979C17.4375 2.56214 17.352 2.44265 17.2277 2.38044L14.055 0.791695Z"/>
@@ -81,7 +105,7 @@
 							<path d="M7.35387 0.79417L6.55526 -0.797712L7.35387 0.79417ZM14.055 0.791695L14.8525 -0.800775V-0.800775L14.055 0.791695ZM4.18222 2.38532L4.98083 3.9772H4.98083L4.18222 2.38532ZM3.95664 2.68732L2.20358 2.37322L2.20358 2.37323L3.95664 2.68732ZM3.67412 4.26416V6.04514H5.16436L5.42718 4.57826L3.67412 4.26416ZM1.2924 4.65582L-0.484264 4.532V4.532L1.2924 4.65582ZM0.0635392 22.2884L-1.71313 22.1645L0.0635392 22.2884ZM21.2102 22.2797L19.4364 22.4402V22.4402L21.2102 22.2797ZM19.615 4.64716L17.8413 4.80762V4.80763L19.615 4.64716ZM17.6702 4.26416L15.9057 4.50544L16.1162 6.04514H17.6702V4.26416ZM17.4563 2.69979L15.6918 2.94105L15.6918 2.94106L17.4563 2.69979ZM17.2277 2.38044L16.4303 3.97291V3.97291L17.2277 2.38044ZM8.15248 2.38605C9.75865 1.58027 11.6508 1.57957 13.2576 2.38417L14.8525 -0.800775C12.2411 -2.10846 9.16572 -2.10732 6.55526 -0.797712L8.15248 2.38605ZM4.98083 3.9772L8.15248 2.38605L6.55526 -0.797712L3.3836 0.79344L4.98083 3.9772ZM5.7097 3.00142C5.6341 3.42337 5.36399 3.78498 4.98083 3.9772L3.3836 0.79344C2.76328 1.10464 2.32598 1.69009 2.20358 2.37322L5.7097 3.00142ZM5.42718 4.57826L5.7097 3.00141L2.20358 2.37323L1.92106 3.95007L5.42718 4.57826ZM1.71231 6.04514H3.67412V2.48319H1.71231V6.04514ZM3.06907 4.77964C3.0194 5.49235 2.42675 6.04514 1.71231 6.04514V2.48319C0.555632 2.48319 -0.403848 3.37815 -0.484264 4.532L3.06907 4.77964ZM1.8402 22.4122L3.06907 4.77964L-0.484264 4.532L-1.71313 22.1645L1.8402 22.4122ZM0.483445 20.9576C1.27181 20.9576 1.89501 21.6257 1.8402 22.4122L-1.71313 22.1645C-1.80186 23.4378 -0.792905 24.5195 0.483445 24.5195V20.9576ZM20.791 20.9576H0.483445V24.5195H20.791V20.9576ZM19.4364 22.4402C19.3644 21.6439 19.9914 20.9576 20.791 20.9576V24.5195C22.0854 24.5195 23.1005 23.4084 22.9839 22.1192L19.4364 22.4402ZM17.8413 4.80763L19.4364 22.4402L22.9839 22.1192L21.3888 4.4867L17.8413 4.80763ZM19.1958 6.04514C18.4922 6.04514 17.9047 5.50841 17.8413 4.80762L21.3888 4.4867C21.2861 3.35213 20.335 2.48319 19.1958 2.48319V6.04514ZM17.6702 6.04514H19.1958V2.48319H17.6702V6.04514ZM15.6918 2.94106L15.9057 4.50544L19.4348 4.02289L19.2209 2.45851L15.6918 2.94106ZM16.4303 3.97291C16.0289 3.77192 15.7526 3.38582 15.6918 2.94105L19.2209 2.45853C19.1224 1.73846 18.675 1.11337 18.0252 0.78797L16.4303 3.97291ZM13.2576 2.38417L16.4303 3.97291L18.0252 0.78797L14.8525 -0.800775L13.2576 2.38417Z" fill="#222222" mask="url(#path-1-inside-1_900_10722)"/>
 							<path d="M9.14989 4.12801C10.2415 3.58016 11.5277 3.57969 12.6197 4.12673L13.2424 4.43866L13.2755 4.6805H8.47688L8.51914 4.44456L9.14989 4.12801ZM13.3725 4.50383C13.3724 4.50378 13.3723 4.50373 13.3722 4.50368L13.3725 4.50383Z" fill="white" stroke="white" stroke-width="1.04655"/>
 						</svg>						
-					</a>
+					</div>
 				</div>
 			</div>
 			<nav class="header__nav">
@@ -183,8 +207,79 @@
 					</svg>	
 					<input type="text" placeholder="Введите запрос">					
 				</label>
-				<div class="search__results">
-					<div class="search__item"></div>
+			</div>
+			<div class="search__results">
+				<div class="search__item">
+					<div class="search__img">
+						<img src="images/dist/main/girl.png" alt="brand">
+						<svg class="search__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>   
+					</div>
+					<div class="search__info">
+						<div class="search__text">
+							<p class="search__name">Пальто Weekend ROVO</p>
+							<p class="search__brand">Max Marra</p>
+						</div>
+						<div class="search__price">
+							<div class="search__cost">Цена:</div>
+							<div class="search__rub">51 000₽</div>
+						</div>
+					</div>
+				</div>
+				<div class="search__item">
+					<div class="search__img">
+						<img src="images/dist/main/girl.png" alt="brand">
+						<svg class="search__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>   
+					</div>
+					<div class="search__info">
+						<div class="search__text">
+							<p class="search__name">Пальто Weekend ROVO</p>
+							<p class="search__brand">Max Marra</p>
+						</div>
+						<div class="search__price">
+							<div class="search__cost">Цена:</div>
+							<div class="search__rub">51 000₽</div>
+						</div>
+					</div>
+				</div>
+				<div class="search__item">
+					<div class="search__img">
+						<img src="images/dist/main/girl.png" alt="brand">
+						<svg class="search__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>   
+					</div>
+					<div class="search__info">
+						<div class="search__text">
+							<p class="search__name">Пальто Weekend ROVO</p>
+							<p class="search__brand">Max Marra</p>
+						</div>
+						<div class="search__price">
+							<div class="search__cost">Цена:</div>
+							<div class="search__rub">51 000₽</div>
+						</div>
+					</div>
+				</div>
+				<div class="search__item">
+					<div class="search__img">
+						<img src="images/dist/main/girl.png" alt="brand">
+						<svg class="search__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>   
+					</div>
+					<div class="search__info">
+						<div class="search__text">
+							<p class="search__name">Пальто Weekend ROVO</p>
+							<p class="search__brand">Max Marra</p>
+						</div>
+						<div class="search__price">
+							<div class="search__cost">Цена:</div>
+							<div class="search__rub">51 000₽</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -195,7 +290,7 @@
   <div class="container">
     <div class="intro__content">
       <a href="#" class="intro__banner intro__banner--big">
-        <img src="./images/src/main/banner--big.png" alt="banner">
+        <img src="./images/dist/main/banner--big.png" alt="banner">
         <div class="intro__group">
           <p class="intro__label">Max Mara</p>
           <p class="intro__name">Пальто  Yellow cloud</p>
@@ -208,7 +303,7 @@
         <a href="#" class="btn btn--black intro__btn">Смотреть коллекцию</a>
       </div>
       <a href="#" class="intro__banner intro__banner--small">
-        <img src="./images/src/main/banner--small.png" alt="banner">
+        <img src="./images/dist/main/banner--small.png" alt="banner">
         <div class="intro__group">
           <p class="intro__label">Marella</p>
           <p class="intro__name">Кошелек Vintage cul</p>
@@ -219,42 +314,42 @@
     <div class="intro__run">
       <div class="intro__brands intro__brands--first">
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/maxmara.png" alt="maxmara">
+          <img src="./images//dist//main/maxmara.png" alt="maxmara">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/brunello.png" alt="brunello">
+          <img src="./images//dist//main/brunello.png" alt="brunello">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/fabiana.png" alt="fabiana">
+          <img src="./images//dist//main/fabiana.png" alt="fabiana">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/peserico.png" alt="peserico">
+          <img src="./images//dist//main/peserico.png" alt="peserico">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/sportmax.png" alt="sportmax">
+          <img src="./images//dist//main/sportmax.png" alt="sportmax">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/marella.png" alt="marella">
+          <img src="./images//dist//main/marella.png" alt="marella">
         </a>
       </div>
       <div class="intro__brands intro__brands--second">
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/maxmara.png" alt="maxmara">
+          <img src="./images//dist//main/maxmara.png" alt="maxmara">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/brunello.png" alt="brunello">
+          <img src="./images//dist//main/brunello.png" alt="brunello">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/fabiana.png" alt="fabiana">
+          <img src="./images//dist//main/fabiana.png" alt="fabiana">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/peserico.png" alt="peserico">
+          <img src="./images//dist//main/peserico.png" alt="peserico">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/sportmax.png" alt="sportmax">
+          <img src="./images//dist//main/sportmax.png" alt="sportmax">
         </a>
         <a href="#" class="intro__brand">
-          <img src="./images//src//main/marella.png" alt="marella">
+          <img src="./images//dist//main/marella.png" alt="marella">
         </a>
       </div>
     </div>
@@ -267,27 +362,27 @@
     <div class="rank__items">
       <a href="#" class="rank__item">
         <p class="rank__name">Платья</p>
-        <img src="./images/src/main/dress.png" alt="dress">
+        <img src="./images/dist/main/dress.png" alt="dress">
       </a>
       <a href="#" class="rank__item">
         <p class="rank__name">Деловая одежда</p>
-        <img src="./images/src/main/business.png" alt="business">
+        <img src="./images/dist/main/business.png" alt="business">
       </a>
       <a href="#" class="rank__item">
         <p class="rank__name">Пальто</p>
-        <img src="./images/src/main/coat.png" alt="coat">
+        <img src="./images/dist/main/coat.png" alt="coat">
       </a>
       <a href="#" class="rank__item">
         <p class="rank__name">Обувь</p>
-        <img src="./images/src/main/shoes.png" alt="shoes">
+        <img src="./images/dist/main/shoes.png" alt="shoes">
       </a>
       <a href="#" class="rank__item">
         <p class="rank__name">Cумки</p>
-        <img src="./images/src/main/bag.png" alt="bag">
+        <img src="./images/dist/main/bag.png" alt="bag">
       </a>
       <a href="#" class="rank__item">
         <p class="rank__name">Верхняя одежда</p>
-        <img src="./images/src/main/outerwear.png" alt="outerwear">
+        <img src="./images/dist/main/outerwear.png" alt="outerwear">
       </a>
     </div>
   </div>
@@ -298,8 +393,10 @@
     <div class="novelties__cards">
       <div class="card novelties__card novelties__card--1">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -309,8 +406,10 @@
       </div>
       <div class="card novelties__card novelties__card--2">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>              
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -324,12 +423,14 @@
         <a href="#" class="btn novelties__btn--1 btn--border">Смотреть все новинки</a>
       </div>
       <div class="novelties__flower">
-        <img src="./images/src/main/flower.png" alt="flower">
+        <img src="./images/dist/main/flower.png" alt="flower">
       </div>
       <div class="card novelties__card novelties__card--3">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -339,8 +440,10 @@
       </div>
       <div class="card novelties__card novelties__card--4">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -358,8 +461,10 @@
     <div class="promo__cards">
       <div class="card promo__card promo__card--1">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -369,8 +474,10 @@
       </div>
       <div class="card promo__card promo__card--2">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -384,12 +491,14 @@
         <a href="#" class="btn promo__btn promo__btn--1 btn--border">Смотреть все акции</a>
       </div>
       <div class="promo__branch">
-        <img src="./images/src/main/branch.png" alt="branch">
+        <img src="./images/dist/main/branch.png" alt="branch">
       </div>
       <div class="card promo__card promo__card--3">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -399,8 +508,10 @@
       </div>
       <div class="card promo__card promo__card--4">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -410,8 +521,10 @@
       </div>
       <div class="card promo__card promo__card--5">
         <div class="card__img">
-          <img src="./images/src/main/girl.png" alt="girl">
-          <span class="card__like">Like</span>
+          <img src="./images/dist/main/girl.png" alt="girl">
+          <svg class="card__like like" data-like width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6.50049 1C3.46339 1 1.00049 3.48521 1.00049 6.55135C1.00049 9.02647 1.96299 14.9008 11.4373 20.8391C11.607 20.9444 11.8018 21 12.0005 21C12.1991 21 12.3939 20.9444 12.5637 20.8391C22.038 14.9008 23.0005 9.02647 23.0005 6.55135C23.0005 3.48521 20.5376 1 17.5005 1C14.4634 1 12.0005 4.36445 12.0005 4.36445C12.0005 4.36445 9.5376 1 6.50049 1Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>   
         </div>
         <div class="card__group">
           <p class="card__label">Max Mara</p>
@@ -421,7 +534,7 @@
       </div>
     </div>  
     <a href="#" class="btn promo__btn promo__btn--2 btn--border">Смотреть все акции</a>
-    <img src="./images/src/main/branch.png" class="promo__img" alt="branch">
+    <img src="./images/dist/main/branch.png" class="promo__img" alt="branch">
 
   </div>
 </section>
@@ -440,7 +553,7 @@
     </div>
     <div class="video__content">
       <div class="video__left">
-        <img src="./images/src/main/forme.png" alt="forme">
+        <img src="./images/dist/main/forme.png" alt="forme">
         <p class="video__text">
           <span>День</span>
           <span>для себя</span>
@@ -594,7 +707,7 @@
 	</footer>
 	
 	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/dist/jquery.maskedinput.min.js"></script> -->
 	<script src="js/app.min.js"></script>
 </body>
 </html>
