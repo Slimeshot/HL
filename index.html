@@ -126,8 +126,6 @@
 					</div>
 				</div>
 				<div class="header__navigation">
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Акции</a></div>
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Новинки</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Пальто</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Платья</a></div>
 					<div class="header__list-nav">
@@ -181,8 +179,8 @@
 					</div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Идеи для подарков</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Marina Rinaldi</a></div>
-					<!-- <div class="header__list-nav"><a href="#" class="header__link-nav">Новинки</a></div>
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Акции</a></div> -->
+					<div class="header__list-nav header__list-nav-new"><a href="#" class="header__link-nav">Новинки</a></div>
+					<div class="header__list-nav header__list-nav-action"><a href="#" class="header__link-nav">Акции</a></div>
 				</div>
 				<div class="header__dop">
 					<a href="#" class="header__link-dop">О магазине</a>
@@ -553,7 +551,7 @@
     </div>
     <div class="video__content">
       <div class="video__left">
-        <img src="./images/dist/main/forme.png" alt="forme">
+        <img src="./images/dist/main/forme.png" open-popup class="video__img" alt="forme">
         <p class="video__text">
           <span>День</span>
           <span>для себя</span>
@@ -564,10 +562,10 @@
           <p class="video__subtitle">Свежий выпуск на&nbsp;youtUbe</p>
           <p class="video__desc">В этом выпуске разобрали подход к выбору базового гардероба на все случаи жизни</p>
         </div>
-        <a href="#" class="video__btn btn btn--black">Смотреть</a>
+        <button class="video__btn btn btn--black" open-popup>Смотреть</button>
       </div>
     </div>
-    <a href="#" class="video__btn video__btn--2 btn btn--border">Смотреть все выпуски</a>
+    <a href="https://www.youtube.com/@proprio_store" target="_blank" class="video__btn video__btn--2 btn btn--border">Смотреть все выпуски</a>
   </div>
 </section>
 
@@ -593,6 +591,19 @@
     </div>
   </div>
 </section>
+
+
+
+<div class="popup">
+  <!-- <div class="delivery__bg"></div> -->
+  <div class="popup__content">
+    <svg class="popup__cross" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0001 9.5034L1.19125 0H0L8.50098 11L0 22H1.19125L11.0001 12.5412L20.809 22H22.0002L13.4992 11L22.0002 0H20.809L11.0001 9.5034Z" fill="#222222"/>
+    </svg>      
+    <p class="popup__brand">Выпуск NЗ</p>
+    <iframe src="https://www.youtube.com/embed/H3Ie6NYAZ2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</div>
 
 
 

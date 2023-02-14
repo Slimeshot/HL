@@ -126,8 +126,6 @@
 					</div>
 				</div>
 				<div class="header__navigation">
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Акции</a></div>
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Новинки</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Пальто</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Платья</a></div>
 					<div class="header__list-nav">
@@ -181,8 +179,8 @@
 					</div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Идеи для подарков</a></div>
 					<div class="header__list-nav"><a href="#" class="header__link-nav">Marina Rinaldi</a></div>
-					<!-- <div class="header__list-nav"><a href="#" class="header__link-nav">Новинки</a></div>
-					<div class="header__list-nav"><a href="#" class="header__link-nav">Акции</a></div> -->
+					<div class="header__list-nav header__list-nav-new"><a href="#" class="header__link-nav">Новинки</a></div>
+					<div class="header__list-nav header__list-nav-action"><a href="#" class="header__link-nav">Акции</a></div>
 				</div>
 				<div class="header__dop">
 					<a href="#" class="header__link-dop">О магазине</a>
@@ -284,6 +282,20 @@
 			</div>
 		</div>
 	</div>
+<div class="popup">
+  <!-- <div class="delivery__bg"></div> -->
+  <div class="popup__content popup__content--elements">
+    <svg class="popup__cross" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0001 9.5034L1.19125 0H0L8.50098 11L0 22H1.19125L11.0001 12.5412L20.809 22H22.0002L13.4992 11L22.0002 0H20.809L11.0001 9.5034Z" fill="#222222"/>
+    </svg>      
+    <p class="popup__brand">Запись на примерку</p>
+    <form class="popup__form">
+      <input class="popup__name" name="name" type="text" placeholder="Имя" required> 
+      <input class="popup__phone" name="phone" type="text" placeholder="Телефон" required> 
+      <input type="submit" id="sendCallBack" value="Оставить заявку" class="btn popup__btn btn--black">
+    </form>
+  </div>
+</div>
 
 
 <section class="elements">
@@ -429,7 +441,7 @@
             </div>
           </div>
         </div>
-        <p class="elements__cant">Не можете подобрать размер? <a href="#">Запишитесь на примерку</a></p>
+        <p class="elements__cant">Не можете подобрать размер? <button class="btn" open-popup>Запишитесь на примерку</button></p>
         <p class="elements__price">51 000₽</p>
         <div class="elements__flex">
           <button class="elements__button btn btn--black">Добавить в корзину</button>

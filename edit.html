@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<!-- <base href="/"> -->
 
-	<title>about</title>
+	<title>profile</title>
 	<meta name="description" content="Startup HTML template OptimizedHTML 5">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -287,37 +287,92 @@
   <div class="container">
     <div class="structure__content">
       <div class="structure__left">
+        <div class="structure__group">
+          <div class="structure__img structure__edit">
+            <img src="./images/dist/profile/profile.png" alt="alt">
+            <input type="file" name="AddImage" id="AddImage" accept="image/*" />
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 8L12 4H20L22 8H10Z" stroke="white" stroke-width="1.33333" stroke-linejoin="round"/>
+              <path d="M27.3346 8H4.66797C3.5634 8 2.66797 8.89543 2.66797 10V26C2.66797 27.1046 3.5634 28 4.66797 28H27.3346C28.4392 28 29.3346 27.1046 29.3346 26V10C29.3346 8.89543 28.4392 8 27.3346 8Z" stroke="white" stroke-width="1.33333" stroke-linejoin="round"/>
+              <path d="M16.0013 23.3332C18.9468 23.3332 21.3346 20.9454 21.3346 17.9998C21.3346 15.0543 18.9468 12.6665 16.0013 12.6665C13.0558 12.6665 10.668 15.0543 10.668 17.9998C10.668 20.9454 13.0558 23.3332 16.0013 23.3332Z" stroke="white" stroke-width="1.33333" stroke-linejoin="round"/>
+            </svg>              
+          </div>
+          <div class="structure__box">
+            <p class="structure__name">Людмила 
+              петрова</p>
+            <button class="structure__change btn">Изменить профиль</button>
+          </div>
+        </div>
         <ul class="structure__menu">
-          <li class="structure__list"><a href="about.html" class="structure__link active">О магазине</a></li>
-          <li class="structure__list"><a href="payment.html" class="structure__link">Оплата</a></li>
-          <li class="structure__list"><a href="delivery.html" class="structure__link">Доставка</a></li>
-          <li class="structure__list"><a href="return.html" class="structure__link">Возврат и обмен</a></li>
-          <li class="structure__list"><a href="sizes.html" class="structure__link">Как выбрать размер</a></li>
+          <li class="structure__list"><a href="#" class="structure__link active">Главная</a></li>
+          <li class="structure__list"><a href="#" class="structure__link">Все заказы</a></li>
+          <li class="structure__list"><a href="#" class="structure__link">Мой гардероб</a></li>
+          <li class="structure__list"><a href="#" class="structure__link">Избранное</a></li>
         </ul>
       </div>
-      <div class="structure__right">
-        <div class="info">
-          <div class="info__top">
-            <div class="info__img">
-              <img src="./images/dist/services/mock.png" alt="services">
-            </div> 
-            <div class="info__info">
-              <h3 class="info__title">О магазине</h3>
-              <div class="info__group">
-                <p class="info__text">Proprio – мультибрендовый онлайн-бутик, который расширяет границы обычного шоппинга до консьерж сервиса с личным консультантом, персональными предложениями и послепродажной поддержкой клиентов.</p>
-                <p class="info__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, qui!</p>
-              </div>
-            </div>
+      <div class="structure__right shape">
+        <p class="shape__txt">Изменение профиля</p>
+        <div class="structure__contacts contacts">
+          <div class="contacts__blocks">
+            <label>
+              <p class="contacts__label">Имя</p>
+              <input type="text" required>
+            </label>
+            <label>
+              <p class="contacts__label">Фамилия</p>
+              <input type="text" required>
+            </label>
+            <label>
+              <p class="contacts__label">Email</p>
+              <input type="email" required>
+            </label>
+            <label>
+              <p class="contacts__label">Телефон</p>
+              <input type="text" required>
+            </label>
           </div>
-          <div class="info__bottom">
-            <div class="info__box">
-              <div class="info__label"></div>
-              <div class="info__group">
-                <p class="info__text">Магазин работает по системе микро дропов – мы чутко реагируем на обновления коллекций и желания потребителей, поэтому новинки поступают не реже двух раз в месяц. В линейке магазина представлены классические итальянские бренды – Max Mara, Brunello Cucinelli, Fabiana Filippi, Peserico, Sportmax, Weekend Max Mara, Marella.</p>
-                <p class="info__text">Для нас важно подобрать ассортимент, который отвечал бы ежедневным вызовам женщин, дарил комфорт в свободное время, а также подсвечивал индивидуальность каждой из них. Мы выбираем вещи в духе вечной классики с нотками спокойной премиальности и утонченной женственности.</p>
-              </div>
+          <button class="contacts__btn btn btn--black">Сохранить</button>
+        </div>
+        <p class="shape__txt">Мои адреса</p>
+        <div class="structure__adreses">
+          <div class="structure__adres">
+            <div class="structure__coop">
+              <label>
+                <p class="structure__label">Название</p>
+                <input type="text" required>
+              </label>
+              <button class="btn structure__delete">удалить</button>
             </div>
+            <label>
+              <p class="structure__label">Город</p>
+              <input type="text" required>
+            </label>
+            <label>
+              <p class="structure__label">Адрес (улица, дом, квартира)</p>
+              <input type="text" required>
+            </label>
           </div>
+          <div class="structure__adres">
+            <div class="structure__coop">
+              <label>
+                <p class="structure__label">Название</p>
+                <input type="text" required>
+              </label>
+              <button class="btn structure__delete">удалить</button>
+            </div>
+            <label>
+              <p class="structure__label">Город</p>
+              <input type="text" required>
+            </label>
+            <label>
+              <p class="structure__label">Адрес (улица, дом, квартира)</p>
+              <input type="text" required>
+            </label>
+          </div>
+        </div>
+        <div class="structure__btns">
+          <button class="structure__btn btn btn--black">Сохранить</button>
+          <button class="structure__btn--orange btn" data-adress>Добавить новый</button>
         </div>
       </div>
     </div>
