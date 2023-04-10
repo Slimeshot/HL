@@ -19,8 +19,8 @@
   top: 50%;
   transform: translateY(-50%);
   left: 150px;
-  width: 420px;
-  height: 420px;
+  width: 480px;
+  height: 480px;
   background-color: #000;
   filter: blur(75px);
   z-index: 0;
