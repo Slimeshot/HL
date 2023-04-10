@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Pragmatica";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: url("pragm.otf") format("otf"),
+    
+}
+
 .content {
   background-color: #fe5639;
   width: 100%;
