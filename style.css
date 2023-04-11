@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Pragmatica";
   font-style: normal;
-  font-weight: 500;
-  src: url("./pragm.otf") format("otf");
+  font-weight: 400;
+  src: url("./pragmaticaregular.woff") format("woff");
 }
 
 /* Reset and base styles  */
@@ -133,6 +133,7 @@ legend {
   background-color: #fe5639;
   width: 100%;
   overflow: hidden;
+  display: block;
 }
 .banner {
   width: 1240px;
@@ -141,7 +142,6 @@ legend {
   display: flex;
   align-items: center;
   position: relative;
-  /* justify-content: space-between; */
 }
 
 .banner::before {
